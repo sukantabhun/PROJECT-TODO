@@ -198,7 +198,7 @@ deleteAllCompletely.onclick = function () {
         deleteAll.classList.add('d-none');
         deleteAllCompletely.classList.add('d-none');
     }
-        localStorage.setItem('todoList', JSON.stringify(todoList));
+    localStorage.setItem('todoList', JSON.stringify(todoList));
 
     footerEl.classList.add('lmao');
 };
