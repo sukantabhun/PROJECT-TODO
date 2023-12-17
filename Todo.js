@@ -198,12 +198,14 @@ deleteAllCompletely.onclick = function () {
         deleteAll.classList.add('d-none');
         deleteAllCompletely.classList.add('d-none');
     }
+        localStorage.setItem('todoList', JSON.stringify(todoList));
+
     footerEl.classList.add('lmao');
 };
-function manageEvent(event){
-    if(event.key==="Enter"){
+document.getElementById("todoUserInput").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
         event.preventDefault();
         onAddTodo();
     }
-}
+});
 });
