@@ -24,5 +24,7 @@ Usage To add a new task, simply type it into the input field and press "Add" or 
 The project also has been deplyed using amazon aws service.
 It includes features like S3 buckets and cloudfront for cdn by aws to host the website online for faster access
 Feel free to check it out using:
+
 CloudFront: https://d3et4873oe9r9d.cloudfront.net
+
 S3: https://aws-workshop-nxtwave-sukantabhunia.s3-website.ap-south-1.amazonaws.com/
